@@ -1,0 +1,273 @@
+/* 
+	* Font Style For : Melancong, Indonesian Tourism Website
+	* Author : Ganteng-Ganteng Coder (GGC)
+	* Version : 1.0.0
+	* Copyright : 2015 Ganteng-Ganteng Coder
+	* Date Created : February 18th 2015
+	* License : Public
+*/
+/* Font for cross browser */
+@font-face{
+	font-family : AllerB ;
+	src : url('../fonts/Aller_Bd.eot') format('embedded-opentype');
+	src : url('../fonts/Aller_Bd.ttf') format('truetype');
+	src : url('../fonts/Aller_Bd.woff') format('woff');
+}
+@font-face{
+	font-family : Aller ;
+	src : url('../fonts/Aller_Rg.eot') format('embedded-opentype');
+	src : url('../fonts/Aller_Rg.ttf') format('truetype') ;
+	src : url('../fonts/Aller_Rg.woff') format('woff') ;
+}
+@font-face {
+	font-family : AllerL ;
+	src : url('../fonts/Aller_Lt.eot') format('embedded-opentype');
+	src : url('../fonts/Aller_Lt.ttf') format('truetype') ;
+	src : url('../fonts/Aller_Lt.woff') format('woff') ;
+}
+@font-face {
+	font-family : Lato ;
+	src : url('../fonts/Lato-Reg.eot') format('embedded-opentype');
+	src : url('../fonts/Lato-Reg.ttf') format('truetype');
+	src : url('../fonts/Lato-Reg.woff') format('woff');
+	font-weight : normal ;
+	font-style : normal ;
+}
+@font-face {
+	font-family : LatoL ;
+	src : url('../fonts/Lato-Lig.eot') format('embedded-opentype');
+	src : url('../fonts/Lato-Lig.ttf') format('truetype');
+	src : url('../fonts/Lato-Lig.woff') format('woff');
+	font-weight : normal ;
+	font-style : normal ;
+}
+@font-face{
+	font-family : Open ;
+	src : url('../fonts/OpenSans-Regular.eot') format('embedded-opentype');
+	src : url('../fonts/OpenSans-Regular.ttf') format('truetype') ;
+	src : url('../fonts/OpenSans-Regular.woff') format('woff') ;
+	font-weight : normal ;
+	font-style : normal ;
+}
+@font-face{
+	font-family : OpenB ;
+	src : url('../fonts/OpenSans-Bold.eot') format('embedded-opentype');
+	src : url('../fonts/OpenSans-Bold.ttf') format('truetype') ;
+	src : url('../fonts/OpenSans-Bold.woff') format('woff') ;
+	font-weight : normal ;
+	font-style : normal ;
+}
+/* Declare the font family into class */
+.AllerL{
+	font-family : AllerL ;
+}
+.Aller{
+	font-family : Aller ;
+}
+.AllerB{
+	font-family : AllerB ;
+}
+.Lato{
+	font-family : Lato ;
+}
+.LatoL{
+	font-family : LatoL ;
+}
+.Open{
+	font-family : Open ;
+}
+.OpenB{
+	font-family : OpenB ;
+}
+/* reset some attributes */
+a{
+	text-decoration : none ;
+	font-style : none ;
+	transition : 0.2s all ease-out ;
+	color: #222;
+}
+textarea,input,select{
+	font-family : LatoL ;
+}
+button{
+	font-family : Lato ;
+	color : white ;
+}
+em{
+	font-style : italic ;
+}
+input.place{
+	font-size : 15px ;
+}
+input.src{
+	font-size : 14px ;
+	color : #333 ;
+}
+/* Declare the font position */
+.t-left{text-align : left ;}
+.t-right{text-align : right ;}
+.t-center{text-align : center ;}
+.t-justify{text-align : justify ;}
+
+/* Declare the font-color */
+.white {
+	color : #fff ;
+}
+.red{
+	color : #e74c3c ;
+}
+.black{
+	color : #333 ;
+}
+.green{
+	color : #32c646 ;
+}
+/* Declare some size of font */
+.small{
+	font-size : 15px ;
+}
+.med{
+	font-family : Lato ;
+	font-size : 20px ;
+}
+.med a{
+	text-decoration : none ;
+	color : #111 ;
+	transition : all 0.3s ease ;
+}
+.med a:hover{
+	text-decoration : underline ;
+}
+.med-big{
+	font-size : 23px ;
+}
+.big{
+	font-size : 27px ;
+}
+/* Execution of font */
+.pepet{
+	line-height : 8px ;
+}
+.pepet2{
+	top : -5px ;
+	line-height : 0px ;
+}
+.tgl-event{
+	font-size : 12px ;
+}
+.cover {
+	font-family : LatoL ;
+	font-size : 40px ;
+}
+.cover span{
+	font-family : Lato ;
+	color : #d91d1d ;
+}
+.sub-cover{
+	font-size : 24px ;
+}
+.foot p{
+	font-size : 14px ;
+}
+.body-title{
+	font-size : 19px ;
+}
+.body-subtitle{
+	font-size : 16px ;
+}
+.btn-big{
+	font-size : 18px ;
+}
+.contact,.text-contact{
+	font-size : 14px ;
+}
+a.more{
+	font-family : Lato ;
+	font-size : 14px ;
+	color : #333 ;
+	transition : all 0.3s ease ;
+}
+a.more:hover{
+	text-decoration : underline ;
+}
+a.more:visited{
+	color : #333 ;
+}
+a.back{
+	text-decoration : none ;
+	color : #2c94b3 ;
+}
+a.back:hover{
+	text-decoration : underline ;
+}
+.cat{
+	color : #444 ;
+}
+.cat p{
+	font-size : 18px ;
+}
+.cat li a{
+	font-family : Open ;
+	color : #666 ;
+	text-decoration : none ;
+}
+.cat li{
+	font-size : 16px ;
+	list-style : none ;
+	
+	margin : 4px 0px ;
+}
+.cat li a:hover{
+	color : #fff ;
+}
+.latest{
+	color : #444 ;
+}
+.latest p{
+	font-size : 18px ;
+}
+a.title-late{
+	color : #444 ;
+	font-size : 15px ;
+}
+a.title-late:hover{
+	text-decoration : underline ;
+}
+p.subtitle-late{
+	font-size : 13px ;
+	font-style : italic ;
+}
+.tag{
+	color : #444 ;
+}
+.tag p{
+	font-size : 18px ;
+}
+.tag li a{
+	font-size : 15px ;
+	color : #444 ;
+	text-decoration : none ;
+}
+.tag li{
+	font-size : 15px ;
+	display : inline-block ;
+	list-style : none ;
+}
+.foot-wrapper p{
+	font-size : 20px ;
+}
+.foot-wrapper li a{
+	font-family : Open ;
+	color : white ;
+}
+.foot-wrapper li{
+	font-size : 14px ;
+	list-style : none ;
+	
+	margin-left : 0px ;
+	margin-top : 2.5px ;
+	margin-bottom : 2.5px ;
+}
+.foot-wrapper li a:hover{
+	text-decoration : underline ;
+}

@@ -1,0 +1,583 @@
+/* 
+	* Style For : Melancong, Indonesian Tourism Website
+	* Author : Ganteng-Ganteng Coder (GGC)
+	* Version : 1.0.0
+	* Copyright : 2015 Ganteng-Ganteng Coder
+	* Date Created : February 18th 2015
+	* License : Public
+*/
+/* CSS Reset */
+body{
+	font-family : LatoL ;
+	background : #fafafa;
+	margin : 0 ;
+	padding : 0 ;
+	top : 0 ;
+	left : 0 ;
+}
+
+/* Declare the id of each part in index */
+#head{
+	overflow : hidden ;
+}
+#events{
+	overflow : hidden ;
+}
+#why{
+	overflow : hidden ;
+}
+#bound{
+	background : #001421 ;
+	overflow : hidden ;
+}
+#article{
+	overflow : hidden ;
+}
+#ticket{
+	overflow : hidden ;
+}
+#contact{
+	overflow : hidden ;
+}
+#foot{
+	overflow : hidden ;
+}
+
+/* Declare the padding and margin of object we will have */
+/* PADDING STYLE */
+.pd-5 {	padding : 5px ; }
+.pd-10{	padding : 10px ; }
+.pd-15 {	padding : 15px ; }
+.pd-20{	padding : 20px ; }
+.pd-25{	padding : 25px; }
+.pd-30 {	padding : 30px ; }
+
+.pd-bt-5{padding-bottom : 5px; padding-top : 5px ;}
+.pd-bt-10{padding-bottom : 10px; padding-top : 10px ;}
+.pd-bt-15{padding-bottom : 15px; padding-top : 15px ;}
+.pd-bt-20{padding-bottom : 20px; padding-top : 20px ;}
+.pd-bt-25{padding-bottom : 25px; padding-top : 25px ;}
+.pd-bt-30{padding-bottom : 30px; padding-top : 30px ;}
+.pd-bt-35{padding-bottom : 35px; padding-top : 35px ;}
+.pd-bt-40{padding-bottom : 40px; padding-top : 40px ;}
+
+.pd-lr-5{padding-left : 5px ; padding-right: 5px ;}
+.pd-lr-10{padding-left : 10px ; padding-right: 10px ;}
+.pd-lr-15{padding-left : 15px ; padding-right: 15px ;}
+.pd-lr-20{padding-left : 20px ; padding-right: 20px ;}
+.pd-lr-25{padding-left : 25px ; padding-right: 25px ;}
+.pd-lr-30{padding-left : 30px ; padding-right: 30px ;}
+.pd-lr-akeh {padding-left : 60px ; padding-right : 60px ;}
+.pd-lr-akeh2 {padding-left : 85px ; padding-right : 85px ;}
+/* MARGIN STYLE */
+.mg-5{margin: 5px ;}
+.mg-10{margin: 10px ;}
+.mg-15{margin: 15px ;}
+.mg-20{margin: 20px ;}
+.mg-25{margin: 25px ;}
+.mg-30{margin: 30px ;}
+
+.mg-l-5{margin-left : 5px ;}
+.mg-l-10{margin-left : 10px ;}
+.mg-l-15{margin-left : 15px ;}
+.mg-l-20{margin-left : 20px ;}
+.mg-l-25{margin-left : 25px ;}
+.mg-l-30{margin-left : 30px ;}
+.mg-l-akeh {margin-left : 60px ;}
+
+.mg-r-5{margin-right : 5px;}
+.mg-r-10{margin-right : 10px;}
+.mg-r-15{margin-right : 15px;}
+.mg-r-20{margin-right : 20px;}
+.mg-r-25{margin-right : 25px;}
+.mg-r-30{margin-right : 30px;}
+.mg-r-akeh {margin-right : 60px ;}
+
+.mg-t-5{margin-top : 5px ;}
+.mg-t-10{margin-top : 10px ;}
+.mg-t-15{margin-top : 15px ;}
+.mg-t-20{margin-top : 20px ;}
+.mg-t-25{margin-top : 25px ;}
+.mg-t-30{margin-top : 30px ;}
+.mg-t-akeh {margin-top : 40px ;}
+
+/* Declare the position of object */
+.right {float : right ;}
+.left {float : left ;}
+.center {margin : auto ;}
+
+/* Declare "position" */
+.fixed{
+	position : fixed ;
+}
+.absolute{
+	position : absolute ;
+}
+.relative{
+	position : relative ;
+}
+
+/* styling for input */
+input{
+	border : solid 1px #fff ;
+	background : transparent ;
+	color : #fff ;
+}
+select{
+	border : solid 1px #fff ;
+	background : transparent ;
+	color : #fff ;
+}
+textarea{
+	border : solid 1px #fff ;
+	background : transparent ;
+	color : #fff ;
+	
+	overflow : hidden ;
+}
+ul
+{
+    list-style-type: none;
+}
+
+.double_column li {
+  float: left;
+  width: 20%;
+  color: #222;
+}
+
+.double_column_1 li {
+  float: left;
+  width: 50%;
+  color: #222;
+}
+.place{
+	width : 60% ;
+	margin-left : 12% ;
+}
+.subs{
+	width : 60% ;
+	font-style : italic ;
+	margin-top : 5% ;
+}
+.src{
+	width : 90% ;
+	font-style : italic ;
+	margin : 2% ;
+	border : none ;
+}
+.contact{
+	width : 89% ;
+	margin-top : 2% ;
+	margin-bottom : 2% ;
+}
+.contact2{
+	width : 89% ;
+	margin-top : 2% ;
+	margin-bottom : 2% ;
+	
+	border : solid 1px #333 ;
+	color : #333 ;
+}
+.text-contact{
+	min-width : 89% ;
+	max-width : 89% ;
+	min-height : 150px ;
+	max-height : 150px ;
+	margin-top : 2% ;
+	margin-bottom : 2% ;
+}
+.text-contact2{
+	min-width : 89% ;
+	max-width : 89% ;
+	min-height : 150px ;
+	max-height : 150px ;
+	margin-top : 2% ;
+	margin-bottom : 2% ;
+	
+	border : solid 1px #333 ;
+	color : #333 ;
+}
+.order {
+	width : 94% ;
+	margin : 1.5% 0% ;
+	
+	border : solid 1px #333 ;
+	color : #333 ;
+}
+.order2{
+	width : 43% ;
+	margin : 1.5% 0% ;
+	
+	border : solid 1px #333 ;
+	color : #333 ;
+}
+.tgl-event{
+	margin : 5px 0 2px ;
+}
+/* wrapper and some object */
+.wr-10,.wr-9,.wr-8,.wr-7,.wr-6,.wr-5,.wr-4,.wr-3,.wr-2,.wr-1,.wr-10-4,.wr-10-3{
+	margin : 0.5% ;
+}
+.wr-10{
+	width : 99% ;
+}
+.wr-9{
+	width : 89% ;
+}
+.wr-8{
+	width : 79% ;
+}
+.wr-7{
+	width : 69% ;
+}
+.wr-6{
+	width : 59% ;
+}
+.wr-5{
+	width : 49% ;
+}
+.wr-4{
+	width : 39% ;
+}
+.wr-3{
+	width : 29%;
+}
+.wr-2{
+	width : 19% ;
+}
+.wr-1{
+	width : 9% ;
+}
+.wr-10-4{
+	/* artinya 100% bagi 4 */
+	width : 24% ;
+}
+.wr-10-3{
+	width : 32% ;
+}
+
+.wrapper-cover {
+	width : 80% ;
+	height : 100% ;
+	/* max-height : 768px ; */
+}
+.object-wrapper {
+	width : 80% ;
+	height : 200px  ;
+	margin : auto;
+	background : #000;
+	
+	z-index : 100 ;
+	
+	transform : skewY(-5deg);
+	-webkit-transform : skewY(-5deg);
+	-moz-transform : skewY(-5deg);
+}
+.gen-wrapper{
+	width : 80% ;
+	/* height : 500px ; */
+	background : none ;
+	
+	overflow : hidden ;
+		
+	z-index : 100;
+}
+.gen-wrapper-l {
+	width : 40% ;
+	/* height : 340px ; */
+	margin : 5% ;
+	background : none ;
+	
+	overflow : hidden ;
+	
+	z-index : 200;
+}
+.wrapper{
+	width : 80% ;
+	overflow : hidden ;
+	/* background : inherit ; */
+}
+.wrapper:after{
+	clear : both ;
+}
+.lit-wrapper{
+	width : 40% ;
+	background : #fff ;
+	margin : 1% 5% ;
+	
+	border-bottom : solid 2px #c0c0c0 ;
+}
+.article-wrapper{
+	width : 29% ;
+	background : #fafafa ;
+	margin : 1% ;
+}
+.event-text{
+	width : 60% ;
+	overflow : hidden ;
+}
+.foot-wrapper{
+	width : 23% ;
+	margin : 1% ;
+}
+.late-wrapper{
+	width : 99% ;
+	overflow : hidden ;
+	border-top : solid 1px #666 ;
+	
+	margin : 2.5% 0.5% ;
+	
+	transition : all 0.3s ease ;
+}
+.late-wrapper:hover{
+	opacity : 0.7 ;
+}
+.late-wrapper a,a img{
+	border : none ;
+}
+.late-wrapper:after{
+	clear : both ;
+}
+.late-img{
+	max-width : 30% ;
+}
+.late-title{
+	width : 100% ;
+	transition : all 0.3s ease ;
+}
+
+/* Button */
+.btn-warning {
+	border : solid 1px #e85c5b ;
+	background : #e85c5b ;
+	cursor:pointer;
+}
+.btn-warning:hover{
+	transition:all 0.3s ease-out;
+	border : solid 1px #d64a49 ;
+	background : #d64a49 ;
+}
+.btn-success{
+	border : solid 1px #32c646 ;
+	background : #32c646 ;
+	cursor:pointer;
+}
+.btn-success:hover{
+	transition:all 0.3s ease-out;
+	border : solid 1px #25b038 ;
+	background : #25b038 ;
+}
+.btn-info{
+	border : solid 1px #2c94b3 ;
+	background : #2c94b3 ;
+	cursor:pointer;
+}
+.btn-info:hover{
+	transition:all 0.3s ease-out;
+	border : solid 1px #1f809d ;
+	background : #1f809d ;
+}
+
+/* Icon */
+img.web-logo{
+	max-width : 200px ;
+}
+img.event{
+	width : 150px ;
+}
+img.why-img{
+	max-width : 225px ;
+}
+a img.sm-icon{
+	border : none ;
+	max-width : 20px ;
+	max-height : 20px ;
+}
+a img.article{
+	border : none ;
+	width : 100% ;
+	transition : all 0.3s ease-out ;
+}
+img.article:hover{
+	opacity : 0.8 ;
+}
+img.map{
+	max-width : 100% ;
+}
+a img.sosmed{
+	border : none ;
+	max-width : 35px ;
+	max-height : 35px ;
+	
+	opacity : 0.7 ;
+	transition : all 0.3s ease ;
+}
+a img.sosmed:hover{
+	opacity : 1.0 ;
+}
+img.team{
+	width : 80% ;
+	border-radius : 50% ;
+}
+.late-img img{
+	width : 100% ;
+	transition : all 0.3s ease;
+}
+.late-img img:hover{
+	transform : scale(1.1);
+	-webkit-transform : scale(1.1);
+	-moz-transform : scale(1.1);
+	-o-transform : scale(1.1);
+}
+.det-img{
+	width : 80% ;
+	border : none ;
+}
+/* Content */
+.cover-atas{
+	width : 100% ;
+	background-image : url('../img/Stormclouds.jpg');
+	background-size : cover ;
+	background-attachment : fixed ;
+	background-repeat : no-repeat ;
+}
+.cover-event{
+	width : 100% ;
+	background-image : url('../img/gedong9.JPG');
+	background-size : cover ;
+	background-attachment : fixed ; 
+}
+.cover-why{
+	width : 100% ;
+	background-image : url('../img/gunung.jpg') ;
+	background-size : cover ;
+	background-attachment : fixed ; 
+}
+.cover-ticket{
+	width : 100% ;
+	background-image : url('../img/prambanan.jpg') ;
+	background-size : cover ;
+	background-attachment : fixed ; 
+}
+.foot {
+	width : 100% ;
+	background : #000b13 ;
+}
+
+.object {
+	width : 100% ;
+	background : #001421 ;
+	background-size : 100% ;
+	
+	margin-top : 4% ;
+}
+.object:before{
+	content : "" ;
+	position : absolute ;
+	width : 100% ;
+	height : 20% ;
+	background : #fafafa ;
+	margin-top : -5% ;
+	z-index : 1 ;
+	
+	transform : skewY(5deg) ;
+	-webkit-transform : skewY(5deg) ;
+	-moz-transform : skewY(5deg) ;
+}
+.object2{
+	width : 100% ;
+	background-image : url('../img/majt.jpg');
+	background-repeat : no-repeat ;
+	background-attachment : cover ;
+	
+	overflow : hidden ;
+	
+	margin-top : 4.5% ;
+	padding-top : 5% ;
+	padding-bottom : 5% ;
+	
+	transform : skewY(5deg) ;
+	-webkit-transform : skewY(5deg) ;
+	-moz-transform : skewY(5deg) ;
+}
+.object3{
+	width : 100% ;
+	background : #fafafa ;
+	background-repeat : no-repeat ;
+	background-attachment : cover ;
+	
+	overflow : hidden ;
+	
+	/* margin-top : 4.5% ; */
+	padding-top : 5% ;
+	padding-bottom : 5% ;
+	
+	transform : skewY(5deg) ;
+	-webkit-transform : skewY(5deg) ;
+	-moz-transform : skewY(5deg) ;
+}
+.cat li{
+	width : 50% ;
+	display : block ;
+	
+	padding : 5px 10px ;
+	transition : all 0.4s ease ;
+}
+.cat li:hover{
+	width : 100% ;
+	background-color : #111 ;
+	color : #fff ;
+}
+.cat li a{
+}
+.tag li{
+	margin : 5px 1px ;
+}
+.tag li a{
+	border : solid 1px #111 ;
+	padding : 2px 5px ;
+	transition : all 0.4s ease;
+}
+.tag li a:hover{
+	background : #111 ;
+	color : #fff ;
+}
+
+/* these script for navigation styling */
+.nav li {
+	display : inline ;
+}
+.nav li a{
+	color : #fff ;
+	text-decoration : none ;
+	font-style : none ;
+	font-family : Lato ;
+	
+	transition : 0.2s all ease ;
+}
+.nav li a:hover{
+	color : #d91d1d ;
+}
+/* Pagination */
+.page li{
+	display : inline ;
+}
+.page li a{
+	color : #000 ;
+	text-decoration : none ;
+	font-style : none ;
+	
+	transition : 0.2s all ease ;
+}
+.page li a:hover{
+	text-decoration : underline ;
+}
+.page li a.active{
+	font-family : Lato ;
+	text-decoration : underline ;
+}
+.page li.disable{
+	opacity : 0.7 ;
+	cursor : not-allowed ;
+}
